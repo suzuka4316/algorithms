@@ -23,14 +23,17 @@ namespace GrokkingAlgorithms
             //else Console.WriteLine($"{key} found at index {index}");
 
             /************** Binary Search **************/
-            int key = 89;
-            int index = BinarySearch.FindIndexByBinarySearch(arr, key);
-            if (index < 0) Console.WriteLine($"{key} not found in the array");
-            else Console.WriteLine($"{key} found at index {index}");
+            //int key = 89;
+            //int index = BinarySearch.FindIndexByBinarySearch(arr, key);
+            //if (index < 0) Console.WriteLine($"{key} not found in the array");
+            //else Console.WriteLine($"{key} found at index {index}");
 
-            
-            
-            
+            /************** Recursion **************/
+            Console.Write("Enter a positive number: ");
+            int num = int.Parse(Console.ReadLine());
+            int factorial = Recursion.FactorialByRecursion(num);
+            Console.WriteLine($"Factorial of {num} is {factorial}");
+
             Console.ReadKey();
         }
     }
