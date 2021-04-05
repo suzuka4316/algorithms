@@ -37,12 +37,18 @@ namespace GrokkingAlgorithms
             //Console.WriteLine($"Addition of the array is {Recursion.AdditionByLoop(arr)}");
             //Console.WriteLine($"Addition of the array is {Recursion.AdditionByRecursion(arr, 10)}");
 
-            int[] arr1 = new int[10] { 58, -2, 5, 89, 78, 105, -16, 257, 19, 57 };
-            int[] newArr = Quicksort.Sort(arr1, 0, arr.Length - 1);
-            for (int i = 0; i < newArr.Length; i++)
-            {
-                Console.Write(newArr[i] + " ");
-            }
+            //int[] arr1 = new int[10] { 58, -2, 5, 89, 78, 105, -16, 257, 19, 57 };
+            //int[] newArr = Quicksort.Sort(arr1, 0, arr.Length - 1);
+            //for (int i = 0; i < newArr.Length; i++)
+            //{
+            //    Console.Write(newArr[i] + " ");
+            //}
+
+            var x = new Dictionary();
+            x.DisplayPrice("Don Quixote");
+            var y = new Dictionary();
+            y.CheckVoter("tom"); //Let them out!
+            y.CheckVoter("tom"); //Kick them out!
 
             Console.ReadKey();
         }

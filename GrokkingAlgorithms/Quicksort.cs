@@ -39,7 +39,9 @@ namespace GrokkingAlgorithms
                 arr[l] = arr[r];
                 arr[r] = temporary;
             }
+            //sort the left side
             Sort(arr, left, l - 1);
+            //sort the right side
             Sort(arr, r + 1, right);
             return arr;
         }
